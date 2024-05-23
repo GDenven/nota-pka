@@ -3,6 +3,10 @@ body {
     margin: 0px;
 }
 
+.navbar-brand {
+    margin-right: 100px;
+}
+
 #content {
     background-color: #E3FEF7;
     border-radius: 10px;
