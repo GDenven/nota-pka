@@ -1,4 +1,52 @@
-h1 {
-    text-align: center;
-    font-size: 10rem;
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+#content {
+    background-color: #E3FEF7;
+    border-radius: 10px;
+}
+
+#banner {
+    background-image: url(images/banner-background.jpg);
+    background-size: cover;
+    margin-top: 0%;
+}
+
+.navbar {
+    background-color: #003C43;
+    color: azure;
+    margin-bottom: 0%;
+}
+
+.nav-link {
+    color: azure;  
+}
+
+.nav-link:hover {
+    color: #FFA62F;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
 }
