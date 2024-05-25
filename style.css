@@ -11,6 +11,7 @@ body {
 #content {
     background-color: #474F7A;
     border-radius: 10px;
+    width: 80%;
 }
 
 #banner {
@@ -57,6 +58,11 @@ body {
 
 @media only screen and (max-width: 768px) {
 
+    #content {
+        background-color: #474F7A;
+        border-radius: 10px;
+        width: 95%; 
+    }
 
     .footer {
         display: flex;
